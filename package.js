@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'gajdamaka:easy-elasticsearch',
+  name: 'gaydamaka:easy-elasticsearch',
   summary: "Elasticsearch Engine for EasySearch",
   version: "1.0.0",
-  git: "https://github.com/matteodem/meteor-easy-search.git",
+  git: "https://github.com/gajdamaka/easy-elasticsearch",
   documentation: 'README.md'
 });
 
@@ -28,7 +28,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use(['tinytest', 'ecmascript']);
-  api.use('gajdamaka:easy-elasticsearch');
+  api.use('gaydamaka:easy-elasticsearch');
 
   api.addFiles(['tests/engine-tests.js']);
 });
